@@ -18,11 +18,11 @@ struct pais
 };
 
 const int n = 10;
-struct pais lst[n] = { {1,"Brasil",212,"Portugues",2.179},
-                       {2,"Espanha",49,"Espanhol",1.723},
-				       {3,"Japao",124,"Japones",4.026},
-				       {4,"Alemanha",83,"Alemao",4.660},
-				       {5,"Australia",27,"Ingles",1.752} };
+struct pais lst[n] = { {1,"Brasil",212,"Portugues",2179,10.27},
+                       {2,"Espanha",49,"Espanhol",1723,35.16},
+				       {3,"Japao",124,"Japones",4026,32.46},
+				       {4,"Alemanha",83,"Alemao",4660,56.14},
+				       {5,"Australia",27,"Ingles",1752,64.88} };
 pais j;
 int id, aux, k, i, tamanho = 0, opcao;
 char conf;
@@ -312,3 +312,4 @@ int main()
 
     return 0;
 }
+
